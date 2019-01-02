@@ -12,6 +12,10 @@ import java.util.Scanner;
 
 public class main{
 
+//    FB information
+    final static String FB_EMAIL = "";
+    final static String FB_PASSWORD = "";
+
 //    DB parameter
     static java.sql.Connection conn = null;
     static PreparedStatement pStmt = null;
@@ -89,8 +93,8 @@ public class main{
 
             Connection.Response loginRes = Jsoup.connect(formURL)
                     .userAgent("Mozilla")
-                    .data("email", "tommy04081996@gmail.com")
-                    .data("pass", "189Aloom")
+                    .data("email", FB_EMAIL)
+                    .data("pass", FB_PASSWORD)
                     .data("lsd", lsd)
                     .data("m_ts", mts)
                     .data("li", li)
