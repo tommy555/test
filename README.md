@@ -8,9 +8,9 @@ Complete date: Jan 2 2019
 
 Project name: FB page Crawler
 
-Language: Java
+Language used: Java
 
-External library: Jsoup, Sqlite
+External library used: Jsoup, Sqlite
 
 
 
